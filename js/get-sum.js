@@ -6,7 +6,10 @@
  * @returns {number} 返回和
  */
 const getSumOfTriple = (arr, start, end) => {
-  // 请实现……
+    let start = start || Math.min(...arr);
+    let end = end || Math.max(...arr);
+    let res = arr.filter(n => (n%3 === 0) && (n >= start) && (n <= end));
+    return res.reduce((sum, n) => {return sum + n}, 0);
 };
 
 // * ---------------- 实现的效果：

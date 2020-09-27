@@ -10,6 +10,19 @@ Git 是一个广泛使用的版本管理工具，适合团队开发。
 请直接在这里作答。
 
 答：
+(git init)
+(git remote)
+git clone
+git branch
+git checkout
+git merge
+git log
+git diff
+git status
+git add
+git commit -m 'message'
+git push
+git pull
 
 ## Q2
 

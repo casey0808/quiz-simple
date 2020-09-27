@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container > div:nth-child(1) {
+    flex-grow: 1;
+  }

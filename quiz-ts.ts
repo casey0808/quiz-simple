@@ -3,7 +3,10 @@
 
 // * ---------------- 请补充……
 
-const getData = async () =>
+
+
+
+const getData = async (): Promise<string> =>
   await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
 
 getData().then((e) => console.log(e));
